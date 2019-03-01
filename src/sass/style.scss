@@ -1,0 +1,16 @@
+@import "bootstrap-sass/assets/stylesheets/bootstrap";
+@import "fontawesome/scss/font-awesome.scss";
+@import "login.scss";
+
+html, body {
+  width: 100%;
+  height: 100% !important;
+  position: fixed;
+  overflow-y: hidden;
+  overflow-x: hidden;
+}
+
+.main {
+  width: 100%;
+  height: 100%;
+}

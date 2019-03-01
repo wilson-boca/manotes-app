@@ -1,0 +1,4 @@
+{
+  "env": "staging",
+  "backendURL": "http://local-manotes.com.br"
+}

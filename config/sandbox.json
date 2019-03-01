@@ -1,0 +1,4 @@
+{
+  "env": "sandbox",
+  "backendURL": "http://local-manotes.com.br"
+}

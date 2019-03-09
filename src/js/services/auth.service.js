@@ -10,7 +10,7 @@ manotesServices.service('Auth',['$cookies', function($cookies){
   };
 
   this.userIsLogged = function() {
-    return self.userToken !== null;
+    return self.userToken !== undefined;
   };
 
   this.logout = function() {

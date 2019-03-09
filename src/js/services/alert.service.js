@@ -2,8 +2,6 @@
 
 manotesServices.service('Alert', ['$q', 'sweetAlert', function($q, SweetAlert) {
   this.showAlert = function(title, text, type) {
-    console.log(SweetAlert.swal);
-    debugger;
     return SweetAlert.swal(
       title,
       text,

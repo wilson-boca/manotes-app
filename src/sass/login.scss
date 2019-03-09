@@ -4,12 +4,32 @@
   .section-left {
     height: 100vh;
     padding: 20px 40px 20px 40px;
+    margin-top: 20px;
     .panel-login {
       height: 50vh;
+    }
+    .presentation {
+      margin-top: 40px;
+      .advantage {
+        margin: 10px;
+      }
     }
   }
   .section-right {
     height: 100vh;
+    h1 {
+      top: 0;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      width: 100%;
+      text-align: center;
+      margin: auto;
+      max-height: 10%;
+      position: absolute;
+      font-weight: bold;
+      color: black;
+    }
     img {
       height: 100%;
     }

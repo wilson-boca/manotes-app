@@ -109,6 +109,14 @@ manotes.config(['$httpProvider', '$stateProvider', '$urlRouterProvider', functio
       controller: 'LoginController'
     });
 
+  $stateProvider
+    .state({
+      name: 'signup',
+      url: '/signup',
+      templateUrl: '/templates/signup.html',
+      controller: 'SignupController'
+    });
+
   $urlRouterProvider.when('', '/home');
 }]);
 
